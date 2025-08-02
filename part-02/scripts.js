@@ -1,7 +1,7 @@
 const age = ("what is your age")
 // console.log(typeof feedback)
 
-if (age >= 20) { // some sought of type coircion
+if (age >= 20) { // some kind of type coircion
     console.log("Now You are grown up")
 } else {
     console.log("You are shishu")
@@ -73,6 +73,7 @@ else if (unit > 400) {
 }
 
 // Money Vangtikoron
+
 let money = 2350;
 
 if (money >= 500) {

@@ -1,5 +1,3 @@
-// console.log("12" + typeof(true))
-// console.log(typeof("12" + 12))
 let a = 10;
 let b = 20
 
@@ -67,6 +65,7 @@ console.log(z++, z) // 10 , 11
 console.log(++z, z) // 12 , 12
 
 let i = 20;
+
 // console.log(i++ , ++i)
 console.log(i++ + ++i) // 42
 
