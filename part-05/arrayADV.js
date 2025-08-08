@@ -128,7 +128,7 @@ function leftRot(i, j) {
 console.log(numArr) */
 
 
-// Left Rotation By K Element using Block Swap Algorithm
+// Right Rotation By K Element using Block Swap Algorithm
 
 
 let arrOfNums = [1, 2, 3, 4, 5, 6, 7]
