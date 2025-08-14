@@ -104,7 +104,7 @@ console.log(arr) */
 // Left Rotation By K Element using Block Swap Algorithm
 
 
- let numArr = [1, 2, 3, 4, 5, 6, 7]
+let numArr = [1, 2, 3, 4, 5, 6, 7]
 
 let k = 3
 leftRot(0, k - 1)
@@ -123,7 +123,7 @@ function leftRot(i, j) {
 
 }
 
-console.log(numArr) 
+console.log(numArr)
 
 
 // Right Rotation By K Element using Block Swap Algorithm
@@ -151,4 +151,27 @@ console.log(numArr)
 // }
 
 // console.log(arrOfNums) 
+
+
+// removing duplicate value from a sorted array
+
+let nums = [0, 0, 1, 2, 2, 3, 4, 5, 5]
+
+let j = 1;
+
+const removeDuplicates = () => {
+    for (let i = 0; i < nums.length - 1; i++) {
+        if (nums[i] != nums[i + 1]) {
+            nums[j] = nums[i + 1]
+            j++;
+        }
+
+
+    }
+    return j
+}
+
+console.log(removeDuplicates())
+
+console.log(nums)
 
