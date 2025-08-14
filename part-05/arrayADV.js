@@ -119,8 +119,6 @@ function leftRot(i, j) {
         numArr[j] = temp
         i++
         j--
-
-
     }
 
 }
