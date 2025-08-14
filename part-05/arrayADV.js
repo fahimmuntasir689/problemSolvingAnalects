@@ -104,7 +104,7 @@ console.log(arr) */
 // Left Rotation By K Element using Block Swap Algorithm
 
 
-/* let numArr = [1, 2, 3, 4, 5, 6, 7]
+ let numArr = [1, 2, 3, 4, 5, 6, 7]
 
 let k = 3
 leftRot(0, k - 1)
@@ -125,32 +125,32 @@ function leftRot(i, j) {
 
 }
 
-console.log(numArr) */
+console.log(numArr) 
 
 
 // Right Rotation By K Element using Block Swap Algorithm
 
 
-let arrOfNums = [1, 2, 3, 4, 5, 6, 7]
+// let arrOfNums = [1, 2, 3, 4, 5, 6, 7]
 
-let z = 3
-rightRot(0, arrOfNums.length - 1)
-rightRot( 0 , z -1 )
-rightRot(z, arrOfNums.length - 1)
-
-
-function rightRot(i, j) {
-    while (i < j) {
-        let temp = arrOfNums[i]
-        arrOfNums[i] = arrOfNums[j]
-        arrOfNums[j] = temp
-        i++
-        j--
+// let z = 3
+// rightRot(0, arrOfNums.length - 1)
+// rightRot( 0 , z -1 )
+// rightRot(z, arrOfNums.length - 1)
 
 
-    }
+// function rightRot(i, j) {
+//     while (i < j) {
+//         let temp = arrOfNums[i]
+//         arrOfNums[i] = arrOfNums[j]
+//         arrOfNums[j] = temp
+//         i++
+//         j--
 
-}
 
-console.log(arrOfNums) 
+//     }
+
+// }
+
+// console.log(arrOfNums) 
 
