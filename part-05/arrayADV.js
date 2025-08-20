@@ -176,3 +176,27 @@ console.log(removeDuplicates())
 console.log(nums)
 
 // incoming problems
+
+// Left Rotation By K Element using Block Swap Algorithm
+
+
+/* let numArr = [1, 2, 3, 4, 5, 6, 7]
+
+let k = 3
+leftRot(0, k - 1)
+leftRot(k, numArr.length - 1)
+leftRot(0, numArr.length - 1)
+
+
+function leftRot(i, j) {
+    while (i < j) {
+        let temp = numArr[i]
+        numArr[i] = numArr[j]
+        numArr[j] = temp
+        i++
+        j--
+    }
+
+}
+
+console.log(numArr) */
