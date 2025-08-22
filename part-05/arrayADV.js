@@ -166,7 +166,6 @@ const removeDuplicates = () => {
             j++;
         }
 
-
     }
     return j
 }
@@ -200,3 +199,92 @@ function leftRot(i, j) {
 }
 
 console.log(numArr) */
+
+
+
+// Merge Sorted Array 
+
+/* const arrOne = [1, 2, 3]
+const arrTwo = [4, 5, 6, 7]
+
+
+let q = 3;
+
+const mergeSortedARray = () => {
+
+    for (let p = 0; p < arrTwo.length; p++) {
+        arrOne[q] = arrTwo[p]
+
+        q++     
+        
+    }
+    return arrOne
+
+}
+
+console.log(mergeSortedARray());
+
+console.log(arrOne) */
+
+
+const arrOne = [1, 2, 3]
+
+const arrTwo = [9, 10, 11]
+
+const newArr = []
+
+const mergeArray = () => {
+    let q;
+    for (let i = 0; i < arrOne.length; i++) {
+        newArr[i] = arrOne[i]
+        q = i
+
+    }
+    q++
+
+
+    for (let j = 0; j < arrTwo.length; j++) {
+
+        newArr[q] = arrTwo[j]
+
+        q++
+    }
+
+}
+
+mergeArray()
+
+console.log(newArr)
+
+
+// merge sorted array 2.0
+
+const arr1 = [2, 4, 6]
+
+const arr2 = [1, 3, 10]
+
+const tempArr = []
+
+const mergedArr = () => {
+    let j = 0;
+    for (let i = 0; i < arr1.length; i++) {
+
+        if (arr1[i] > arr2[j]) {
+
+            tempArr[i] = arr2[j]
+            j++
+
+        }
+        if (arr1[i] < arr2[j]) {
+            tempArr[i] = arr1[i]
+        }
+
+    }
+
+}
+
+mergedArr()
+
+console.log(tempArr)
+
+
