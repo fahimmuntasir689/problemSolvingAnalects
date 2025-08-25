@@ -288,3 +288,38 @@ mergedArr()
 console.log(tempArr)
 
 
+
+
+// another revision soln with while loop
+
+const aRR1 = [1, 3, 5]
+const aRR2 = [10, 12, 24]
+
+const merge = new Array(aRR1.length + aRR2.length)
+
+let i = j = k = 0
+
+while (i < aRR1.length && j < aRR2.length) {
+    if (aRR1[i] < aRR2[j]) {
+        merge[k++] = aRR1[i++]
+    }
+    if (aRR1[i] > aRR2[j]) {
+        merge[k++] = aRR2[j++]
+    }
+
+}
+while (i < aRR1.length) {
+
+        merge[k++] = aRR1[i++]
+    }
+while (j < aRR2.length) {
+
+        merge[k++] = aRR2[j++]
+    }
+
+console.log(merge)
+
+
+
+
+
