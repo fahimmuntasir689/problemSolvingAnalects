@@ -320,6 +320,9 @@ while (j < aRR2.length) {
 console.log(merge)
 
 
+// in another dimension merging sorted array
+
+
 
 
 
