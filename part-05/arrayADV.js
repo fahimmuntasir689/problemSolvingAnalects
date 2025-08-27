@@ -324,24 +324,28 @@ console.log(merge)
 
 
 
-
 // Best time to buy and sell stock
 
 let prices = [7, 1, 5, 3, 6, 4]
 
-let s = 0
-let stock1 = 1
-while (s < prices.length) {
-    if (prices[s] < prices[s + 1]) {
-        if (stock1 >= prices[s]) {
-            stock1 = prices[s]
+const sellStock = () => {
+    let maxProfit = 0
+    let stock1 = prices[0]
+
+
+    for (let i = 0; i < prices.length; i++) {
+        if (prices[i] < stock1) {
+            stock1 = prices[i]
         }
+        let profit = prices[i] - stock1
+        maxProfit = Math.max(maxProfit, profit)
+
+
     }
-
-    s++
-
-
+    return maxProfit
 }
+
+console.log(sellStock())
 
 
 
