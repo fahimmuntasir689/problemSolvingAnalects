@@ -310,17 +310,38 @@ while (i < aRR1.length && j < aRR2.length) {
 }
 while (i < aRR1.length) {
 
-        merge[k++] = aRR1[i++]
-    }
+    merge[k++] = aRR1[i++]
+}
 while (j < aRR2.length) {
 
-        merge[k++] = aRR2[j++]
-    }
+    merge[k++] = aRR2[j++]
+}
 
 console.log(merge)
 
 
 // in another dimension merging sorted array
+
+
+
+
+// Best time to buy and sell stock
+
+let prices = [7, 1, 5, 3, 6, 4]
+
+let s = 0
+let stock1 = 1
+while (s < prices.length) {
+    if (prices[s] < prices[s + 1]) {
+        if (stock1 >= prices[s]) {
+            stock1 = prices[s]
+        }
+    }
+
+    s++
+
+
+}
 
 
 
