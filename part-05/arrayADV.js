@@ -347,6 +347,8 @@ const sellStock = () => {
 
 console.log(sellStock())
 
+// new problems are comming
+
 
 
 
